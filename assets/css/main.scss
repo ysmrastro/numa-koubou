@@ -176,6 +176,80 @@ a {
   }
 }
 
+/* 鏡筒バンド 価格表ページ: バリエーションカード */
+.band-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.band-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  overflow: hidden;
+
+  &__image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    background-color: #0d1117;
+  }
+
+  &__body {
+    padding: 1em 1.1em;
+  }
+
+  &__tag {
+    display: inline-block;
+    margin-bottom: 0.4em;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8em;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #1a4a6e;
+    color: #b8d4e8;
+    font-weight: bold;
+    font-size: 0.85em;
+  }
+
+  &__name {
+    margin: 0 0 0.2em;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #e6edf3;
+    line-height: 1.35;
+  }
+
+  &__price {
+    margin: 0 0 0.5em;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #7eb8da;
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: 0.8em;
+    line-height: 1.6;
+    color: #c9d1d9;
+  }
+
+  &__note {
+    margin: 0.6em 0 0;
+    padding-top: 0.6em;
+    border-top: 1px solid #21262d;
+    font-size: 0.72em;
+    line-height: 1.5;
+    color: #8b949e;
+  }
+}
+
 /* ボタンのカスタマイズ */
 .btn--primary {
   background-color: #1a4a6e;
