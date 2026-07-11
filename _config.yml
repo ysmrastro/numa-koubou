@@ -1,0 +1,41 @@
+# サイト設定
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark"
+
+# サイト情報
+title: "沼のほとり工房"
+subtitle: "3D PRINTED ASTRO PARTS"
+description: "天体観測まわりの3Dプリント製パーツを製作・紹介する「沼のほとり工房」"
+url: "https://ysmrastro.github.io"
+baseurl: "/numa-koubou"
+locale: "ja-JP"
+logo: "/assets/images/logo.png"
+
+# ナビゲーション
+header_pages:
+  - about.md
+
+# ビルド設定
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# デフォルトのページ設定
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+
+# フッター
+footer:
+  links:
+    - label: "沼のほとり"
+      icon: "fas fa-fw fa-water"
+      url: "https://ysmrastro.github.io/numanohotori/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ysmrastro"

@@ -1,0 +1,51 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign products = site.data.products %}
+{% if products and products.size > 0 %}
+<h3 class="archive__subtitle">製作パーツ</h3>
+
+<div class="product-grid">
+  {% for item in products %}
+  <article class="product-card">
+    <header class="product-card__header">
+      <p class="product-card__title">{{ item.name }}</p>
+      {% case item.status %}
+        {% when "available" %}<span class="product-card__badge product-card__badge--available">販売中</span>
+        {% when "developing" %}<span class="product-card__badge product-card__badge--preparing">開発中</span>
+        {% when "soldout" %}<span class="product-card__badge product-card__badge--soldout">完売</span>
+        {% else %}<span class="product-card__badge product-card__badge--preparing">準備中</span>
+      {% endcase %}
+    </header>
+
+    {% if item.image and item.image != "" %}
+    <img class="product-card__image" src="{{ site.baseurl }}/assets/images/products/{{ item.image }}" alt="{{ item.name }}" loading="lazy">
+    {% else %}
+    <div class="product-card__image product-card__image--placeholder">画像準備中</div>
+    {% endif %}
+
+    <div class="product-card__body">
+      <p class="product-card__summary">{{ item.summary }}</p>
+
+      {% if item.price != "" or item.lead_time != "" %}
+      <dl class="product-card__meta">
+        {% if item.price != "" %}
+        <div class="product-card__meta-row"><dt>価格</dt><dd>{{ item.price }}</dd></div>
+        {% endif %}
+        {% if item.lead_time != "" %}
+        <div class="product-card__meta-row"><dt>納期</dt><dd>{{ item.lead_time }}</dd></div>
+        {% endif %}
+      </dl>
+      {% endif %}
+
+      {% if item.shop_url and item.shop_url != "" %}
+      <a class="btn btn--primary product-card__buy" href="{{ item.shop_url }}" target="_blank" rel="noopener">購入ページへ</a>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endif %}

@@ -1,0 +1,7 @@
+main:
+  - title: "ホーム"
+    url: /
+  - title: "工房について"
+    url: /about/
+  - title: "沼のほとり"
+    url: https://ysmrastro.github.io/numanohotori/

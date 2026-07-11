@@ -1,0 +1,21 @@
+# 商品データ
+# 1商品 = 1エントリ。画像は assets/images/products/ に置いてファイル名を image に指定。
+# status: "available"（販売中） / "developing"（開発中） / "preparing"（準備中） / "soldout"（完売）
+# price / lead_time: "応相談" など自由記述。空にするとその行は非表示。
+# shop_url: 販売ページ（BOOTH等）が決まったら記入。未定なら空のままでOK。
+
+- name: "ファインダー台座取付用 鏡筒バンド"
+  image: "tube-band-finder-base.jpg"
+  status: "available"
+  price: "応相談"
+  lead_time: "応相談"
+  shop_url: ""
+  summary: "鏡筒に巻いて固定する3Dプリント製バンド。上部にファインダー台座（アリミゾ）を備え、お手持ちの鏡筒にファインダーや小型機材を手軽に追加できます。鏡筒の外径に合わせて一台ずつ設計・製作します。"
+
+- name: "テレコン活用ビノフレーム"
+  image: "teleconverter-bino-frame.jpg"
+  status: "developing"
+  price: ""
+  lead_time: ""
+  shop_url: ""
+  summary: "使わなくなったテレコンバーター（作例: Nikon TC-E2 2x）を2つ連結し、双眼で気軽に星空を楽しむためのフレーム。眠っている光学部品を活かす一例です。お手持ちの機材の径や仕様に合わせて設計します。"

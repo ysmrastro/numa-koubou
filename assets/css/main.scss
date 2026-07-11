@@ -1,0 +1,188 @@
+---
+---
+
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
+
+/* 沼のほとり工房 カスタムスタイル（沼のほとりと配色を共通化） */
+
+/* 全体の背景を夜空色 #0d1117 に統一（スキン既定の #252a34 を上書き） */
+html {
+  background-color: #0d1117;
+}
+
+/* ヘッダーに深い夜空の雰囲気 */
+.masthead {
+  background-color: #0d1117;
+  border-bottom: 1px solid #1a2332;
+}
+
+/* トップバー（ナビ）も背景に馴染ませる */
+.greedy-nav {
+  background: #0d1117;
+
+  .hidden-links {
+    background: #161b22;
+    border-color: #30363d;
+
+    &::before {
+      color: #161b22;
+    }
+  }
+}
+
+/* リンクを星のような色合いに */
+a {
+  color: #7eb8da;
+
+  &:hover {
+    color: #b8d4e8;
+  }
+}
+
+/* 商品グリッド */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2em;
+  margin-bottom: 1.5em;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    border-color: #7eb8da;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(126, 184, 218, 0.18);
+  }
+
+  /* 商品名＋ステータス（写真の上） */
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6em;
+    padding: 0.9em 1.1em;
+    background-color: #1c232c;
+    border-bottom: 1px solid #30363d;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: #e6edf3;
+    line-height: 1.35;
+  }
+
+  &__badge {
+    flex-shrink: 0;
+    display: inline-block;
+    padding: 0.2em 0.75em;
+    border-radius: 999px;
+    font-size: 0.72em;
+    font-weight: bold;
+    white-space: nowrap;
+
+    &--available {
+      background-color: #1a4a6e;
+      color: #b8d4e8;
+    }
+
+    &--preparing {
+      background-color: #2a2f38;
+      color: #8b949e;
+    }
+
+    &--soldout {
+      background-color: #3a2429;
+      color: #d0a0a8;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    background-color: #0d1117;
+
+    &--placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #484f58;
+      font-size: 0.85em;
+    }
+  }
+
+  /* 説明・価格・納期（写真の下） */
+  &__body {
+    display: flex;
+    flex-direction: column;
+    padding: 1.1em;
+  }
+
+  &__summary {
+    margin: 0 0 1em;
+    font-size: 0.85em;
+    line-height: 1.6;
+    color: #c9d1d9;
+  }
+
+  &__meta {
+    margin: 0;
+    border-top: 1px solid #30363d;
+  }
+
+  &__meta-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.8em;
+    padding: 0.5em 0;
+
+    & + .product-card__meta-row {
+      border-top: 1px solid #21262d;
+    }
+
+    dt {
+      flex-shrink: 0;
+      width: 3.5em;
+      margin: 0;
+      font-size: 0.75em;
+      font-weight: bold;
+      color: #8b949e;
+    }
+
+    dd {
+      margin: 0;
+      font-size: 0.9em;
+      font-weight: bold;
+      color: #7eb8da;
+    }
+  }
+
+  &__buy {
+    align-self: flex-start;
+    margin-top: 1em;
+  }
+}
+
+/* ボタンのカスタマイズ */
+.btn--primary {
+  background-color: #1a4a6e;
+  border-color: #1a4a6e;
+
+  &:hover {
+    background-color: #245d87;
+    border-color: #245d87;
+  }
+}
