@@ -23,6 +23,7 @@ author_profile: false
       <p class="band-card__name">アリガタプレート用</p>
       <p class="band-card__price">2,000円</p>
       <p class="band-card__desc">アリガタプレートに鏡筒を固定するためのバンド。通常は2本1組で使用します。</p>
+      <p class="band-card__note">お客様のアリガタプレートに合わせて製作。採寸のため発払いで送付が必要です。</p>
     </div>
   </div>
   <div class="band-card">
@@ -42,7 +43,7 @@ author_profile: false
       <p class="band-card__name">アリガタプレート・ファインダー台座 兼用</p>
       <p class="band-card__price">5,000円</p>
       <p class="band-card__desc">アリガタプレート固定とファインダー台座を1本で兼ねるバンド。パーツ点数を減らせます。</p>
-      <p class="band-card__note">ファインダー台座は別途ご用意（持込）、またはオプション +2,000円</p>
+      <p class="band-card__note">アリガタプレートは発払いで送付が必要。ファインダー台座は別途ご用意（持込）、またはオプション +2,000円。</p>
     </div>
   </div>
 </div>
@@ -59,6 +60,10 @@ author_profile: false
 
 上記以外の組み合わせもご相談ください。セット価格・合計は鏡筒サイズやカスタマイズにより変動します。
 {: .notice--info}
+
+## アリガタプレートについて（A・C）
+
+アリガタプレート用（A）・兼用（C）は、**お客様のアリガタプレートに合わせて製作**します（当方でのご用意はありません）。正確に合わせるための採寸が必要なため、**アリガタプレートを発払い（元払い）でお送りください**（送料はお客様のご負担となります）。
 
 ## ファインダー台座について（B・C）
 
