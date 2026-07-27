@@ -23,6 +23,18 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
+# ビルド対象から除外するファイル
+# HANDOVER.md はローカル作業用メモ（.gitignore 済み）。
+# Liquid 構文として解釈されてビルドが失敗するため除外する。
+exclude:
+  - HANDOVER.md
+  - tmp
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - CLAUDE.md
+
 # デフォルトのページ設定
 defaults:
   - scope:

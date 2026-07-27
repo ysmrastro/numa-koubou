@@ -6,4 +6,5 @@ Gemfile.lock
 vendor/
 .bundle/
 HANDOVER.md
+tmp/
 .DS_Store
