@@ -10,18 +10,18 @@ toc_sticky: true
 header:
   teaser: /assets/images/tube-band/product-angle.jpg
 gallery_mounted:
-  - url: /assets/images/tube-band/mounted-sky.jpg
-    image_path: /assets/images/tube-band/mounted-sky.jpg
-    alt: "経緯台に載せた屈折鏡筒に鏡筒バンドを装着した作例"
-    title: "作例：屈折鏡筒に装着"
   - url: /assets/images/tube-band/mounted-sky2.jpg
     image_path: /assets/images/tube-band/mounted-sky2.jpg
-    alt: "ファインダーを追加した鏡筒を斜め後方から見たところ"
-    title: "作例：ファインダーを追加"
+    alt: "汎用経緯台に載せた屈折鏡筒を斜め後方から見たところ"
+    title: "斜め後方から"
   - url: /assets/images/tube-band/mounted-side.jpg
     image_path: /assets/images/tube-band/mounted-side.jpg
-    alt: "鏡筒バンドで固定した鏡筒を横から見たところ"
-    title: "作例：横から"
+    alt: "鏡筒バンドとアリガタプレートで経緯台に固定した鏡筒を横から見たところ"
+    title: "横から"
+  - url: /assets/images/tube-band/mounted-closeup.jpg
+    image_path: /assets/images/tube-band/mounted-closeup.jpg
+    alt: "経緯台のアリミゾにアリガタプレートを固定した部分のクローズアップ"
+    title: "取り付け部のクローズアップ"
 gallery_product:
   - url: /assets/images/tube-band/product-angle.jpg
     image_path: /assets/images/tube-band/product-angle.jpg
@@ -37,24 +37,31 @@ gallery_product:
     title: "アリガタプレート側から"
 ---
 
-ファインダー台座のない屈折鏡筒に、ファインダーやアリガタプレートを取り付けるための
-**オーダーメイドの鏡筒バンド**です。鏡筒の外径に合わせて一台ずつ設計・製作します。
+専用の三脚にしか載せられない鏡筒を**汎用の経緯台・赤道儀で使えるようにしたり**、
+ファインダー台座のない鏡筒に**ファインダーを追加できるようにしたり**するための、
+オーダーメイドの鏡筒バンドです。鏡筒の外径に合わせて一台ずつ設計・製作します。
 {: .notice}
 
-{% include figure image_path="/assets/images/tube-band/mounted-closeup.jpg" alt="鏡筒に装着した鏡筒バンドのクローズアップ" caption="鏡筒を傷つけないよう、内側は鏡筒の外径に沿わせた形状にしています。" %}
+{% include figure image_path="/assets/images/tube-band/mounted-sky.jpg" alt="専用設計の鏡筒バンドとアリガタプレートで汎用経緯台に載せた屈折鏡筒" caption="作例：もともと専用三脚にしか取り付けられなかった屈折鏡筒を、専用設計の鏡筒バンドとアリガタプレートで汎用の経緯台に載せられるようにしました。" %}
 
 ## 特長
 
+- **手持ちの架台が使えるようになる** — アリガタプレートを介して固定するため、市販のアリミゾを備えた経緯台・赤道儀に載せられます。付属の三脚に縛られません。
 - **鏡筒に合わせた一点もの** — 外径（mm）に合わせて設計するため、市販バンドのサイズが合わない鏡筒にも対応できます。
 - **PETG-CF（カーボン配合）製** — 軽量で剛性が高く、屋外での温度変化にも強い素材です。
 - **鏡筒にやさしい** — 金属バンドのように塗装を削ってしまう心配が少なく、締め付け面をならして接触させます。
 - **構成を選べる** — アリガタプレート固定用、ファインダー台座付き、その兼用など、必要な機能だけを組み合わせられます。
 
-## 装着例
+## 作例：専用三脚から汎用経緯台へ
 
-古い屈折鏡筒を経緯台に載せ、ファインダーを追加した例です。
+この鏡筒はもともと**付属の専用三脚にしか取り付けられず**、手持ちの架台に載せることができませんでした。
+そこで鏡筒の外径に合わせた**鏡筒バンド2本とアリガタプレートを専用に設計・製作**し、
+アリミゾを備えた市販の経緯台へ取り付けられるようにしています。
 
-{% include gallery id="gallery_mounted" caption="鏡筒バンド2本とアリガタプレートで鏡筒を支持し、上部にファインダーを増設しています。" %}
+**ファインダーは鏡筒に元から付いていたものをそのまま使用**しており、新たに追加したものではありません。
+鏡筒バンドはファインダーの位置を避けて配置し、既存の機能を損なわないようにしています。
+
+{% include gallery id="gallery_mounted" caption="鏡筒バンド2本とアリガタプレートで鏡筒を支持し、経緯台のアリミゾに固定しています。" %}
 
 ## 単体での構成
 
