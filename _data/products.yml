@@ -14,8 +14,8 @@
 
 - name: "テレコン活用ビノフレーム"
   image: "teleconverter-bino-frame.jpg"
-  status: "developing"
-  price: ""
-  lead_time: ""
+  status: "available"
+  price: "応相談"
+  lead_time: "応相談"
   shop_url: ""
-  summary: "使わなくなったテレコンバーター（作例: Nikon TC-E2 2x）を2つ連結し、双眼で気軽に星空を楽しむためのフレーム。眠っている光学部品を活かす一例です。お手持ちの機材の径や仕様に合わせて設計します。"
+  summary: "中古のテレコンバーター（作例: Nikon TC-E2 2x）を2つ連結し、双眼で気軽に星空を楽しむための双眼装置。目幅は2つのテレコンが接する最短位置から幅広まで簡単に調整できます。受注生産。光学系に中古品を使うため、その調達状況により価格・納期は変動します。"
